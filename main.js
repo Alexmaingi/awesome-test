@@ -12,12 +12,13 @@
 // and the other be called: age
 
 // TODO: write your code below this line
-let tax_rate=40;
-tax_rate=20;
-console.log("+ tax_rate")
+let tax_rate = 40;
+tax_rate = 20;
+console.log(40 + tax_rate);
 
-const age=19;
-console.log("age")
+const age = 19;
+console.log(age);
+
 
 
 // TODO: write your code above this line
@@ -29,11 +30,12 @@ console.log("age")
 
 const myArray = [4, -2, 6, 9, 1, 12, 6, 2, 10];
 // TODO: write your code below this line
+let numbers = myArray.filter(element => element > 5);
 let sum = 0;
-for(let element of myArray){
-    if(element >5) sum1 += element;
-} 
-console.log("SUM 1 =>". sum1);
+for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+}
+console.log(sum);
 
 // expected output: 43
 // TODO: write your code below this line
